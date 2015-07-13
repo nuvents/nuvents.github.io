@@ -1,0 +1,862 @@
+/* 
+
+
+    _/                                  _/            
+   _/          _/_/_/  _/_/_/      _/_/_/  _/    _/   
+  _/        _/    _/  _/    _/  _/    _/  _/    _/    
+ _/        _/    _/  _/    _/  _/    _/  _/    _/     
+_/_/_/_/    _/_/_/  _/    _/    _/_/_/    _/_/_/      
+                                             _/       
+                                        _/_/          
+                                                 
+											   V 1.0                                  
+                                  													 
+                                  													 */
+@import "iconfont.css";
+@import "animate.min.css";
+
+/*-----------------------------------------------------------------------------------*/
+/* GENERAL
+/*-----------------------------------------------------------------------------------*/
+
+ .iconimage {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   height: 200px;
+}
+
+body{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	color: #3a3a3a;
+	font-weight: 600px;
+    font-size: 2.2em;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    color: #3a3a3a;
+    font-weight: 500;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+.lead{
+	font-weight: 300;
+}
+
+button {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-bottom: 10px;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	border-radius: 5px;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.428571429;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+
+
+.visibility{
+	visibility: hidden;
+}
+
+.animated{
+	visibility: visible!important;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	KEY COLOR
+/*-----------------------------------------------------------------------------------*/
+
+/*---- Typography ----*/
+header h1, 
+.payoff h1,
+.details .carousel,
+.social a:hover{
+	color: #A9C3D5;
+}
+
+.features p{
+	color: black;;
+}
+
+/*---- Background ----*/
+.features,
+.detail .carousel-indicators .active {
+	background: white;
+}
+	
+
+/*-----------------------------------------------------------------------------------*/
+/* NAVBAR
+/*-----------------------------------------------------------------------------------*/
+
+nav.navbar{
+	position: fixed;
+	top: -100%;
+	margin-bottom: 0px;
+	padding: 10px 0px 10px 0px;
+	width: 100%;
+	border-radius: 0px;
+	transition: all 0.2s;
+}
+
+.navbar-nav{
+	float: right;
+}
+
+nav.navbar.fixed-to-top{
+	top: 0px;
+}
+
+.navbar-default{
+	border: none;
+	border-bottom: 1px solid #eee;
+	background: #fff;
+	opacity: 0.95;
+	display: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #aaa;
+	font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	color: #3A3A3A;	
+	cursor: pointer;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.navbar-default .navbar-brand{
+	color: #333333;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 2em;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/* HEADER 
+/*-----------------------------------------------------------------------------------*/
+
+header{
+	padding: 150px 0px 0px 0px;
+	height: 960px;
+    background: url('../img/jumping5.jpg');
+	background-color: white!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #ED5857;
+}
+
+header h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-weight: 300;
+	font-size: 100px;
+
+	font-family: 'Roboto Condensed', sans-serif;
+	
+}
+
+
+
+header p.lead{
+	font-size: 36px;
+}
+
+
+header .carousel-iphone{
+	margin-right: auto;
+	margin-left: auto;
+	width: 320px;
+	height: 672px;
+	background: url('../img/iphone-front.png') no-repeat;
+	background-size: 100%;
+	
+}
+
+header .carousel {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 95px 0px 0px 4px;
+	width: 282px;
+}
+
+header .carousel-indicators .active {
+	width: 15px;
+	height: 15px;
+	background: #444444;
+}
+
+header .carousel-indicators {
+	bottom: -63px;
+}
+
+header .carousel-indicators li {
+	display: inline-block;
+	margin: 1px;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #666666;
+	border-radius: 10px;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/* PURCHASE
+/*-----------------------------------------------------------------------------------*/
+
+.purchase{
+	overflow: hidden;
+	padding: 100px 0px 100px 0px;
+	min-height: 200px;
+}
+
+.purchase button.app-store{
+	width: 152px;
+	height: 52px;
+	background: url(../img/coming-soon.png) #3a3a3a no-repeat 0px 5px;
+	color: clear;
+}
+
+.purchase button.android{
+	width: 152px;
+	height: 52px;
+	background: url(../img/comingsoonandroid.png) #3a3a3a no-repeat 0px 5px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	PAYOFF
+/*-----------------------------------------------------------------------------------*/
+
+.payoff{
+	overflow: hidden;
+	padding: 230px 0px 150px 0px;
+	min-height: 600px;
+	background: url('../img/1raw-opacity.jpg');
+	background-position: center top;
+	background-repeat: repeat-x;
+	color: white;
+}
+
+.payoff h1{
+	text-transform: uppercase;
+	font-weight: 300;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.8em;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	DETAIL
+/*-----------------------------------------------------------------------------------*/
+
+.detail{
+	overflow: hidden;
+	padding: 50px 0px 0px 0px;
+	min-height: 500px;
+}
+
+.detail .title{
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.detail .features .row{
+	margin-bottom: 40px;
+}
+
+.detail .carousel h1{
+	font-size: 3.8em;
+}
+.detail .carousel h1, .detail p{
+	text-align: left;
+	font-weight: 300;
+}
+
+.detail p{
+	color: #aaa;
+}
+
+.detail .carousel-control{
+	background: none;
+}
+
+.detail .app-screenshot{
+	overflow: hidden;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 95px;
+	width: 320px;
+	height: 450px;
+	background: url('../img/iphone-front.png') no-repeat;
+	background-size: 100%;
+}
+
+.detail .app-screenshot img{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 4px;
+	width: 280px;
+}
+
+.detail .carousel-indicators {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 5px;
+	padding-bottom: 8px;
+	width: 100%;
+	border-top: 1px solid #eee;
+	background: #ffffff;
+}
+
+.detail .carousel-indicators .active {
+	width: 45px;
+	height: 5px;
+	border: none;
+	border-radius: 0px;
+}
+
+.detail .carousel-indicators li {
+	display: inline-block;
+	margin: 1px;
+	width: 45px;
+	height: 5px;
+	border: none;
+	border-radius: 0px;
+	background: #eeeeee;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	FEATURES
+/*-----------------------------------------------------------------------------------*/
+
+.features{
+	overflow: hidden;
+	padding: 150px 0px 150px 0px;
+	min-height: 400px;
+	color: black;
+}
+
+.features p {
+	font-weight: 400;
+}
+
+.features h2{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.features .circle{
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 33px;
+	width: 150px;
+	height: 150px;
+	border-color: black;;
+	border-radius: 100%;
+	text-align: center;
+	
+}
+
+.features span.glyphicon, .features i{
+	margin-top: 3px;
+	color: #ffffff;
+	font-size: 5em;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	SOCIAL
+/*-----------------------------------------------------------------------------------*/
+
+.social{
+	overflow: hidden;
+	min-height: 350px;
+	background: url('../img/map-noicons.png');
+	background-position: center top;
+	background-repeat: repeat-x;
+	color: white;
+}
+
+.social h2{
+	color: white;
+}
+
+.social a {
+	margin-left: 10px;
+	color: #FFF;
+	font-size: 5em;
+	transition: all 0.3s;
+}
+
+.social a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	GET-IT
+/*-----------------------------------------------------------------------------------*/
+
+.get-it{
+	padding: 50px 0px 160px 0px;
+	text-align: center;
+}
+
+.get-it button.app-store{
+	width: 152px;
+	height: 52px;
+	background: url(../img/coming-soon.png) #373737 no-repeat 0px 5px;
+	color: white;
+}
+.get-it button.android{
+    width: 152px;
+    height: 52px;
+    background: url(../img/comingsoonandroid.png) #373737 no-repeat 0px 5px;
+    color: white;
+}
+
+.get-it hr{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.get-it ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.get-it ul li{
+	display: inline-block;
+	margin-left:30px;
+}
+
+.get-it ul li:first-child{
+	margin-left: 0px;
+}
+
+.get-it ul li a{
+	color: #aaa;
+	font-size: 1.2em;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.get-it ul li a:hover{
+	color: #3A3A3A;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width:768px) {
+	
+	header{
+		padding-bottom: 50px;
+		min-height: 1000px;
+		height: 100%;
+	}
+	
+	.navbar-nav {
+		float: left;
+		text-align: left;
+}
+
+	
+}
+
+@media (max-width:992px) {
+
+.detail .carousel h1, .detail p{
+	text-align: center;
+}
+
+.detail p{
+		margin-bottom: 60px;
+}
+
+header, .social{
+	background-position-y: 0px;
+	background-size: 200%;
+}
+
+.payoff{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	min-height: 200px;
+}
+
+.payoff h1{
+	font-size: 24px;
+}
+
+.features .col-md-4{
+	margin-bottom: 60px;
+}
+
+}
+
+@media (max-width:480px){
+
+	header .carousel-iphone, .detail .app-screenshot{
+		width: 280px;
+	}
+	
+	header .carousel, .detail .app-screenshot img{
+		padding-top: 85px;
+		width: 245px;
+	}
+	
+	.detail .app-screenshot img{
+		margin-top: -12px;
+		padding-top: 0px;
+	}
+	
+	header{
+		padding-top: 30px;
+		padding-bottom: 0px;
+	}
+	
+	header h1{
+		font-size: 70px;
+	}
+	
+	.purchase{
+		padding-top: 50px;
+	}
+	
+	.features col-md-4{
+		margin-bottom: 50px;
+	}
+	
+}
+
+/*----
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    /* Retina-specific stuff here 
+    .purchasebutton.app-store, .get-it button.app-store{
+        background: url(../img/badge-appstore@2x.png) #3a3a3a no-repeat 0px 5px;
+        background-size: 98%;
+    	color: white;
+    }
+}
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    .purchasebutton.android, .get-it button.android{
+        background: url(../img/comingsoonandroid2x.png) #3a3a3a no-repeat 0px 5px;
+        background-size: 98%;
+    	color: white;
+    }
+}
+*/
+
+/*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HH              Development Team
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
+.team{
+    overflow: hidden;
+	padding: 80px 0px 150px 0px;
+	min-height: 500px;
+    text-align: center;
+    color: #333;
+}
+.team h2{
+    color: #333;
+}
+.team img{
+    width: 200px;
+    margin-bottom: 20px;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+}
+.img-hover{
+    display: none;
+    width: 220px;
+    height: 213px;
+    position: absolute;
+    margin: 0px auto;
+}
+#team .icon-m{
+    position: absolute;
+    width: 30px;
+    right: 0px;
+    bottom: 0px;
+}
+#team .icon-p{
+    position: absolute;
+    width: 30px;
+    top: 185px;
+    left: 185px;
+}
+#team .col-md-2:hover .img-hover{
+    display: block;
+    background: rgba(0, 0, 0, .7);
+    top: 0;
+    cursor: pointer;
+    margin: auto;
+}
+#team .col-md-2:hover .icon-m{
+    display: block;
+}
+ul.social-icon{
+    padding: 0px;
+    margin-top: 95px;
+}
+ul.social-icon li{
+    display: inline-block;
+    margin: 5px;
+}
+ul.social-icon i {
+    color:#333;
+    background: #fff;
+    border-radius:100%;
+    display:block;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+}
+ul.social-icon li a {
+    display:block;
+}
+.social-icon ul li a i{
+    color: white;
+    border-color: white;
+}
+
+
+.animation-box {
+    display:inline-block;
+    position:relative;
+}
+
+.verticle-line{
+    height: 40px;
+    width: 1px;
+    background: #888;
+    margin: 15px auto 5px;
+}
+
+.circle{
+    height: 15px;
+    width: 15px;
+    border: 1px solid #888;
+    border-radius: 100%;
+    margin: 0px auto 50px;
+}
+
+/*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HH              Contact Us
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
+.contact{
+    text-align: left;
+    background:
+}
+.contact i {
+    width: 60px;
+    height: 100px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 40px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 12px;
+    padding: 30px 0;
+    text-align: center;
+    float: left;
+}
+.contact-item:hover i{
+    background-color: #39c;
+    transition: .8s;
+    border: 2px solid #e7e7e7 !important;
+    /*background: linear-gradient(90deg, rgb(81, 255, 182), rgb(87, 160, 255));*/
+}
+.contact{
+    font-size: 15px;
+}
+.form h3{
+    margin-left: 15px;
+}
+.form .message{
+    margin: 0px 15px;
+    height: 180px;
+    width: 98%;
+}
+.btn-sub {
+    width: 170px;
+    height: 50px;
+    border-radius: 0px;
+    color: white;
+    background-color: rgb(87, 160, 255);
+    padding: 15px 10px;
+    margin: 10px 30px;
+    border-color: rgb(87, 160, 255);
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn-sub:hover{
+    background-color: rgb(81, 255, 182);
+    border-color: rgb(81, 255, 182);
+    color: white;
+    transition: .8s;
+}
+input[type="username"]:focus, input[type="email"]:focus, input[type="text"]:focus{
+    border-color: rgb(81, 255, 182);
+    box-shadow: none;
+}
+input.form-control, .message {
+    border-radius: 0px;
+}
+
+
+/* Mailchimp stuff */
+
+.mailchimp{
+	overflow: hidden;
+	padding: 80px 0px 150px 0px;
+	min-height: 350px;
+	background: white;
+	background-position: center top;
+	background-repeat: repeat-x;
+	color: white;
+}
+
+
+#mc_embed_signup{
+    position: relative;
+  margin: 50px auto;
+  width: 750px;
+  padding: 33px 25px 29px;
+  background: white;
+  border-bottom: 1px solid #c4c4c4;
+  border-radius: 5px;
+  @include box-shadow(0 1px 5px rgba(black, .25));
+}
+
+/* MailChimp Form Embed Code - Classic - 08/17/2011 */
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#mc_embed_signup h2 {  margin: -20px -20px 20px;
+  padding: 15px 25px;
+  line-height: 35px;
+  font-size: 28px;
+  font-weight: 600;
+  color: black;
+  text-align:center;
+  text-shadow: 0 1px rgba(white, .75);
+  background: #f7f7f7;}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {  vertical-align: top;
+  width: 75%;
+  height: 54px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(black, .25);
+  background: #ED5857;
+  border: 0;
+  border-bottom: 2px solid #ED5857;
+  border-radius: 5px;
+  cursor: pointer;
+  @include box-shadow(inset 0 -2px #d76b60);}
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}
+
+#mc_embed_signup .mc-field-group {clear:left; position:relative; width:96%; padding-bottom:3%; min-height:50px; color: black;}
+#mc_embed_signup .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
+* html #mc_embed_signup .size1of2 {margin-right:2%; /* Fix for IE6 double margins. */}
+#mc_embed_signup .mc-field-group label {display:block; margin-bottom:3px; color: black;}
+#mc_embed_signup .mc-field-group input {  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+  padding: 0 15px 2px;
+  font-size: 17px;
+  background: white;
+  border: 2px solid #ebebeb;
+  border-radius: 4px;
+  @include box-shadow(inset 0 -2px #ebebeb);}
+#mc_embed_signup .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
+
+#mc_embed_signup .datefield, #mc_embed_signup .phonefield-us{padding:5px 0;}
+#mc_embed_signup .datefield input, #mc_embed_signup .phonefield-us input{display:inline; width:60px; margin:0 2px; letter-spacing:1px; text-align:center; padding:5px 0 2px 0;}
+#mc_embed_signup .phonefield-us .phonearea input, #mc_embed_signup .phonefield-us .phonedetail1 input{width:40px;}
+#mc_embed_signup .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input{width:30px;}
+#mc_embed_signup .datefield label, #mc_embed_signup .phonefield-us label{display:none;}
+
+#mc_embed_signup .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
+#mc_embed_signup .asterisk {color:#c60; font-size:200%;}
+#mc_embed_signup .mc-field-group .asterisk {position:absolute; top:25px; right:10px;}        
+#mc_embed_signup .clear {clear:both;}
+
+#mc_embed_signup .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none;}
+#mc_embed_signup .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
+#mc_embed_signup .mc-field-group.input-group label {display:inline;}
+#mc_embed_signup .mc-field-group.input-group input {display:inline; width:auto; border:none;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+#mc-embedded-subscribe {clear:both; width:auto; display:block; margin:1em 0 1em 5%;}
+#mc_embed_signup #num-subscribers {font-size:1.1em;}
+#mc_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
+
+#mc_embed_signup mc_inline_error { border-color:#ED5857; } #mc_embed_signup div.mce_inline_error { margin: 0 0 1em 0; padding: 5px 10px; background-color:#ED5857; font-weight: bold; z-index: 1; color:#fff; }
+
+head > style:nth-child(9)
+#mc_embed_signup input.mce_inline_error { border-color:black; } #mc_embed_signup div.mce_inline_error { margin: 0 0 1em 0; padding: 5px 10px; background-color:black; font-weight: bold; z-index: 1; color:#fff; }
