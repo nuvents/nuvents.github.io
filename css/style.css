@@ -394,6 +394,7 @@ header .carousel-indicators li {
 	height: 150px;
 	border-color: black;;
 	border-radius: 100%;
+    border-width: 2px;
 	text-align: center;
 	
 }
