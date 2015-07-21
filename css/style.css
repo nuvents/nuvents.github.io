@@ -244,16 +244,18 @@ header .carousel-indicators li {
 }
 
 .purchase button.app-store{
-	width: 152px;
-	height: 52px;
-	background: url(../img/coming-soon.png) #3a3a3a no-repeat 0px 5px;
+	width: 170px;
+	height: 50px;
+	background: url(../img/badge-appstore.svg) no-repeat;
+    background-size: cover;
 	color: clear;
 }
 
 .purchase button.android{
 	width: 152px;
 	height: 52px;
-	background: url(../img/comingsoonandroid.png) #3a3a3a no-repeat 0px 5px;
+	background: url(../img/google-play.png) no-repeat;
+    background-size: cover;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -445,16 +447,17 @@ header .carousel-indicators li {
 }
 
 .get-it button.app-store{
-	width: 152px;
-	height: 52px;
-	background: url(../img/coming-soon.png) #373737 no-repeat 0px 5px;
-	color: white;
+	width: 170px;
+	height: 50px;
+	background: url(../img/badge-appstore.svg) no-repeat;
+    background-size: cover;
+	color: clear;
 }
 .get-it button.android{
     width: 152px;
     height: 52px;
-    background: url(../img/comingsoonandroid.png) #373737 no-repeat 0px 5px;
-    color: white;
+    background: url(../img/google-play.png) no-repeat;
+    background-size: cover;
 }
 
 .get-it hr{
